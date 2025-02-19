@@ -134,5 +134,20 @@ namespace Math
         return Vector3<T>((lhs.y * rhs.z) - (lhs.z * rhs.y), (lhs.z * rhs.x) - (lhs.x * rhs.z), (lhs.x * rhs.y) - (lhs.y * rhs.x));
     }
 
+    // Common Types
+
+    using Vector3i8  = Vector3<Int8>;
+    using Vector3i16 = Vector3<Int16>;
+    using Vector3i32 = Vector3<Int32>;
+    using Vector3i64 = Vector3<Int64>;
+
+    using Vector3u8  = Vector3<UInt8>;
+    using Vector3u16 = Vector3<UInt16>;
+    using Vector3u32 = Vector3<UInt32>;
+    using Vector3u64 = Vector3<UInt64>;
+
+    using Vector3f32 = Vector3<Float32>;
+    using Vector3f64 = Vector3<Float64>;
+
 } // namespace Math
 } // namespace Core

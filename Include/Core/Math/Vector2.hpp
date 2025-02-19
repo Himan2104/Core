@@ -130,7 +130,20 @@ namespace Math
         return (lhs.x * rhs.y) - (lhs.y * rhs.x);
     }
 
-    // Member Functions
+    // Common Types
+
+    using Vector2i8  = Vector2<Int8>;
+    using Vector2i16 = Vector2<Int16>;
+    using Vector2i32 = Vector2<Int32>;
+    using Vector2i64 = Vector2<Int64>;
+
+    using Vector2u8  = Vector2<UInt8>;
+    using Vector2u16 = Vector2<UInt16>;
+    using Vector2u32 = Vector2<UInt32>;
+    using Vector2u64 = Vector2<UInt64>;
+
+    using Vector2f32 = Vector2<Float32>;
+    using Vector2f64 = Vector2<Float64>;
 
 } // namespace Math
 } // namespace Core

@@ -4,7 +4,7 @@ AlignAfterOpenBracket: Align
 AlignConsecutiveMacros: 'true'
 AlignConsecutiveAssignments: 'true'
 AlignEscapedNewlines: Left
-ColumnLimit: 128
+ColumnLimit: 256
 AlignOperands: 'false'
 AlignTrailingComments: 'true'
 AllowShortBlocksOnASingleLine: 'true'

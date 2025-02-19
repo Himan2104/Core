@@ -133,5 +133,20 @@ namespace Math
         return (lhs.x * rhs.x) + (lhs.y * rhs.y) + (lhs.z * rhs.z) + (lhs.w * rhs.w);
     }
 
+    // Common Types
+
+    using Vector4i8  = Vector4<Int8>;
+    using Vector4i16 = Vector4<Int16>;
+    using Vector4i32 = Vector4<Int32>;
+    using Vector4i64 = Vector4<Int64>;
+
+    using Vector4u8  = Vector4<UInt8>;
+    using Vector4u16 = Vector4<UInt16>;
+    using Vector4u32 = Vector4<UInt32>;
+    using Vector4u64 = Vector4<UInt64>;
+
+    using Vector4f32 = Vector4<Float32>;
+    using Vector4f64 = Vector4<Float64>;
+
 } // namespace Math
 } // namespace Core
