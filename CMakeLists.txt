@@ -12,7 +12,11 @@ elseif(CMAKE_BUILD_TYPE STREQUAL "Release")
 	add_compile_definitions(CORE_RELEASE)
 endif()
 
-add_library(core Source/Math/Utils.cpp)
+add_library(core 
+Source/Math/Utils.cpp
+Source/Math/Vector2.cpp
+Source/Math/Vector3.cpp
+Source/Math/Vector4.cpp)
 
 target_include_directories(core PUBLIC ${CMAKE_SOURCE_DIR}/Include)
 

@@ -4,6 +4,7 @@ AlignAfterOpenBracket: Align
 AlignConsecutiveMacros: 'true'
 AlignConsecutiveAssignments: 'true'
 AlignEscapedNewlines: Left
+ColumnLimit: 128
 AlignOperands: 'false'
 AlignTrailingComments: 'true'
 AllowShortBlocksOnASingleLine: 'true'
@@ -16,6 +17,7 @@ AlwaysBreakAfterReturnType: None
 AlwaysBreakBeforeMultilineStrings: 'false'
 BreakBeforeBraces: Allman
 BreakConstructorInitializers: BeforeComma
+BreakTemplateDeclarations: Yes
 Cpp11BracedListStyle: 'true'
 FixNamespaceComments: 'true'
 IncludeBlocks: Merge
